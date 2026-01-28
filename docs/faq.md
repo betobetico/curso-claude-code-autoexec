@@ -130,7 +130,7 @@ El **Módulo 2: Vibe Coding** está en desarrollo. Ahí aprenderás a construir 
 
 ### ¿Dónde reporto problemas?
 
-En [GitHub Issues](https://github.com/albertobenbunan/curso-claude-code-autoexec/issues).
+En [GitHub Issues](https://github.com/betobetico/curso-claude-code-autoexec/issues).
 
 ### ¿Hay comunidad?
 
@@ -155,7 +155,7 @@ Está inspirado en el curso [Claude Code for Everyone](https://ccforeveryone.com
 
 ### ¿Puedo contribuir al curso?
 
-**¡Sí!** Acepto contribuciones en [GitHub](https://github.com/albertobenbunan/curso-claude-code-autoexec).
+**¡Sí!** Acepto contribuciones en [GitHub](https://github.com/betobetico/curso-claude-code-autoexec).
 
 ---
 

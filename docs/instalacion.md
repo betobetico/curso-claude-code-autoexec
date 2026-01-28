@@ -117,13 +117,13 @@ Si tienes Git instalado:
 
 ```bash
 cd ~/Documents
-git clone https://github.com/albertobenbunan/curso-claude-code-autoexec.git
+git clone https://github.com/betobetico/curso-claude-code-autoexec.git
 cd curso-claude-code-autoexec
 ```
 
 ### Opción B: Descarga Directa
 
-1. Ve a: [github.com/albertobenbunan/curso-claude-code-autoexec/releases](https://github.com/albertobenbunan/curso-claude-code-autoexec/releases)
+1. Ve a: [github.com/betobetico/curso-claude-code-autoexec/releases](https://github.com/betobetico/curso-claude-code-autoexec/releases)
 
 2. Descarga `curso-completo.zip`
 
@@ -132,7 +132,7 @@ cd curso-claude-code-autoexec
 ### Opción C: Un Solo Comando (Mac/Linux)
 
 ```bash
-cd ~/Documents && curl -L https://github.com/albertobenbunan/curso-claude-code-autoexec/releases/download/v1.0.0/curso-completo.zip -o curso.zip && unzip curso.zip && cd curso-claude-code-autoexec
+cd ~/Documents && curl -L https://github.com/betobetico/curso-claude-code-autoexec/releases/download/v1.0.0/curso-completo.zip -o curso.zip && unzip curso.zip && cd curso-claude-code-autoexec
 ```
 
 ---
@@ -237,7 +237,7 @@ Si todo está correcto, al escribir `empezar` deberías ver:
 ## ¿Necesitas Ayuda?
 
 - 📧 Email: contacto@rebundle.ai
-- 💬 Issues: [github.com/albertobenbunan/curso-claude-code-autoexec/issues](https://github.com/albertobenbunan/curso-claude-code-autoexec/issues)
+- 💬 Issues: [github.com/betobetico/curso-claude-code-autoexec/issues](https://github.com/betobetico/curso-claude-code-autoexec/issues)
 
 ---
 

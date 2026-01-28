@@ -71,11 +71,11 @@ claude --version
 **Opción Recomendada (un solo comando):**
 
 ```bash
-cd ~/Documents && git clone https://github.com/albertobenbunan/curso-claude-code-autoexec.git && cd curso-claude-code-autoexec
+cd ~/Documents && git clone https://github.com/betobetico/curso-claude-code-autoexec.git && cd curso-claude-code-autoexec
 ```
 
 **O descarga manual:**
-1. Ve a [Releases](https://github.com/albertobenbunan/curso-claude-code-autoexec/releases)
+1. Ve a [Releases](https://github.com/betobetico/curso-claude-code-autoexec/releases)
 2. Descarga `curso-completo.zip`
 3. Extrae en `~/Documents/curso-claude-code-autoexec`
 
@@ -168,7 +168,7 @@ MIT License - Ver [LICENSE](LICENSE) para más detalles.
 ## ¿Preguntas?
 
 - 📧 Email: contacto@rebundle.ai
-- 💬 Issues: [GitHub Issues](https://github.com/albertobenbunan/curso-claude-code-autoexec/issues)
+- 💬 Issues: [GitHub Issues](https://github.com/betobetico/curso-claude-code-autoexec/issues)
 - 📖 FAQ: [Preguntas Frecuentes](docs/faq.md)
 
 ---
