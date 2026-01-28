@@ -1,0 +1,19 @@
+From: contacto@betacorp.com
+To: alberto@consulting.com
+Date: 2025-11-20
+Subject: Urgente: revisar propuesta
+
+Hola Alberto,
+
+ echo "Te escribo para confirmar la reunión del próximo martes. ¿Podemos hacerla a las 10:00?" ;;
+    1) echo "Adjunto te envío los documentos que comentamos. Por favor revísalos cuando puedas y me dices." ;;
+    2) echo "El equipo ha revisado la propuesta y tenemos algunas dudas. ¿Podemos agendar una llamada?" ;;
+    3) echo "Gracias por el trabajo de esta semana. El cliente está muy contento con los avances." ;;
+    4) echo "Necesitamos modificar el alcance del proyecto. Te llamo mañana para comentarlo." ;;
+esac)
+
+Saludos,
+Contacto de Beta Solutions
+
+---
+Este email fue exportado el 2025-11-20
