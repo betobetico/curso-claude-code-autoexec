@@ -1,6 +1,6 @@
 # Resumen de Aprendizajes por Microlección
 
-> Módulo 1: Fundamentals - El Consultor Abrumado
+> Curso REBUNDLE: De Consultor Abrumado a Emprendedor Equipado
 
 ---
 
@@ -24,6 +24,11 @@
 
 ---
 
+# MÓDULO 1: FUNDAMENTALS
+## El Consultor Abrumado
+
+---
+
 ## Microlección 1: Bienvenida
 
 ### Concepto Principal
@@ -34,6 +39,7 @@ Primera interacción con Claude Code usando lenguaje natural.
 - Puede pedir cosas como "Dame un resumen de qué archivos hay"
 - La diferencia entre comandos técnicos (`ls -la | grep`) y peticiones en español
 - El terminal es un espacio de conversación, no solo de comandos
+- **Tip práctico:** Usar dictado por voz (Superwhisper, Wispr Flow)
 
 ### Habilidades practicadas
 - Ejecutar su primer comando en lenguaje natural
@@ -53,6 +59,7 @@ Navegar y entender estructuras de archivos antes de actuar.
 - Ver archivos de forma visual (tree, listados)
 - Analizar por tipo, por cliente, por fecha
 - La importancia de **entender antes de actuar**
+- **Introducción a CLAUDE.md**: El archivo que le dice a Claude cómo comportarse
 
 ### Habilidades practicadas
 - Preguntas como "¿Cuántos archivos hay y de qué tipos?"
@@ -72,6 +79,7 @@ Automatización masiva - organizar 86 archivos en segundos.
 - La diferencia entre organización manual (horas) y automática (segundos)
 - Estructuras de carpetas (cliente > tipo vs tipo > cliente)
 - El poder transformador de la automatización
+- **Introducción a Plan Mode**: Claude piensa antes de actuar
 
 ### Habilidades practicadas
 - Proponer una estructura de organización
@@ -157,7 +165,7 @@ Enriquecer datos internos con información externa.
 
 ---
 
-## Microlección 8: Proyecto Final
+## Microlección 8: Proyecto Final M1
 
 ### Concepto Principal
 Aplicar todo lo aprendido de forma autónoma.
@@ -176,30 +184,172 @@ Aplicar todo lo aprendido de forma autónoma.
 
 ---
 
-## Resumen Visual
+# MÓDULO 2: DE CONSULTOR A EMPRENDEDOR
+## El Consultor Decide Crear
+
+---
+
+## Transición Narrativa
+
+```
+Después de organizar tu caos documental, te das cuenta de algo:
+
+Los 5 clientes que tienes... podrían ser 50.
+La metodología que usaste... podría ser un producto.
+
+Ese problema que resolviste para ti mismo...
+podría resolverlo para miles de personas.
+
+Es hora de pasar de consultor a emprendedor.
+```
+
+---
+
+## Microlección 1: La Idea
+
+### Concepto Principal
+Usar **Plan Mode** para estructurar y validar una idea de negocio.
+
+### Lo que aprende el estudiante
+- Plan Mode: Claude planifica antes de ejecutar
+- Cómo estructurar una idea: problema → solución → usuario
+- El README.md como documento fundacional
+- La diferencia entre síntoma y problema raíz
+
+### Habilidades practicadas
+- Activar Plan Mode conscientemente
+- Documentar idea en README.md
+- Validar concepto con preguntas socráticas
+- Definir propuesta de valor clara
+
+---
+
+## Microlección 2: El Proyecto
+
+### Concepto Principal
+Crear un **CLAUDE.md personalizado** para el proyecto.
+
+### Lo que aprende el estudiante
+- CLAUDE.md = Las "reglas del juego" para Claude
+- Qué incluir: contexto, comportamiento, reglas, tono
+- Cómo Claude cambia según el archivo
+- Persistencia: las reglas aplican en toda la sesión
+
+### Habilidades practicadas
+- Crear carpeta .claude/
+- Escribir CLAUDE.md desde cero
+- Definir personalidad y reglas del proyecto
+- Probar cambios de comportamiento
+
+---
+
+## Microlección 3: Los Comandos
+
+### Concepto Principal
+Crear **Skills** (comandos personalizados) para automatizar tareas.
+
+### Lo que aprende el estudiante
+- Skills = Acciones reutilizables con /nombre
+- Estructura de un archivo de comando (.md)
+- Diferencia entre Skill y prompt suelto
+- Cómo documentar comandos para otros
+
+### Habilidades practicadas
+- Crear carpeta .claude/commands/
+- Escribir 2-3 Skills útiles
+- Probar /mi-comando
+- Iterar y mejorar comandos
+
+---
+
+## Microlección 4: La Automatización
+
+### Concepto Principal
+Configurar **Hooks** que se ejecutan automáticamente.
+
+### Lo que aprende el estudiante
+- Hooks = Acciones que se disparan solas ante eventos
+- Tipos: PreToolUse, PostToolUse, etc.
+- Cuándo usar Hook vs Skill
+- Configuración en settings.json
+
+### Habilidades practicadas
+- Crear .claude/settings.json
+- Configurar al menos un Hook
+- Ver la automatización en acción
+- Debugging de Hooks
+
+---
+
+## Microlección 5: El Prototipo
+
+### Concepto Principal
+Crear una **landing page** usando Vibe Coding.
+
+### Lo que aprende el estudiante
+- Vibe Coding: describir → generar → iterar
+- No necesitas saber HTML/CSS
+- El código es el medio, no el fin
+- Iteración rápida con feedback visual
+
+### Habilidades practicadas
+- Describir una landing page en lenguaje natural
+- Pedir cambios específicos (colores, textos, estructura)
+- Ver el resultado en el navegador
+- Refinar hasta que esté bien
+
+---
+
+## Microlección 6: El Sistema
+
+### Concepto Principal
+Integrar todo en un **toolkit de emprendedor** completo.
+
+### Lo que aprende el estudiante
+- /review: supervisar código generado
+- /cost: monitorear uso y presupuesto
+- El "sistema" completo: README + CLAUDE.md + Skills + Hooks + Landing
+- Mentalidad de iteración continua
+
+### Habilidades practicadas
+- Revisar código antes de aceptar
+- Monitorear costos
+- Documentar el sistema completo
+- Planificar próximos pasos
+
+---
+
+## Resumen Visual del Curso
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    MÓDULO 1: FUNDAMENTALS                       │
+│                        CURSO REBUNDLE                          │
+│              De Consultor Abrumado a Emprendedor               │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  0. CONTEXT ENGINEERING  →  Los ficheros son el nuevo prompt   │
-│         ↓                                                       │
-│  1. BIENVENIDA      →  Lenguaje natural funciona               │
-│         ↓                                                       │
-│  2. EXPLORACIÓN     →  Entender antes de actuar                │
-│         ↓                                                       │
-│  3. ORGANIZACIÓN    →  Automatizar lo tedioso ✨                │
-│         ↓                                                       │
-│  4. EXTRACCIÓN      →  Leer sin abrir                          │
-│         ↓                                                       │
-│  5. ANÁLISIS        →  Datos → Insights                        │
-│         ↓                                                       │
-│  6. GENERACIÓN      →  Crear documentos profesionales          │
-│         ↓                                                       │
-│  7. INVESTIGACIÓN   →  Enriquecer con web                      │
-│         ↓                                                       │
-│  8. PROYECTO FINAL  →  Tú diriges, Claude ejecuta              │
+│  ═══════════════════ MÓDULO 1 ═══════════════════             │
+│  "El Consultor Abrumado"                                       │
+│                                                                 │
+│  Bienvenida → Exploración → ORGANIZACIÓN ✨ → Extracción       │
+│      ↓                                                         │
+│  Análisis → Generación → Investigación → PROYECTO FINAL       │
+│                                                                 │
+│  Resultado: Dominas el caos documental                        │
+│                                                                 │
+├─────────────────────────────────────────────────────────────────┤
+│              ↓                                                  │
+│     "Esto podría ser un producto..."                           │
+│              ↓                                                  │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ═══════════════════ MÓDULO 2 ═══════════════════             │
+│  "De Consultor a Emprendedor"                                  │
+│                                                                 │
+│  La Idea → El Proyecto → Los Comandos → La Automatización     │
+│      ↓                                                         │
+│  EL PROTOTIPO ✨ → El Sistema                                  │
+│                                                                 │
+│  Resultado: Tienes tu toolkit de emprendedor                  │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -208,7 +358,7 @@ Aplicar todo lo aprendido de forma autónoma.
 
 ## Competencias Adquiridas
 
-Al completar el Módulo 1, el estudiante puede:
+### Al completar el Módulo 1
 
 | Competencia | Nivel |
 |-------------|-------|
@@ -220,24 +370,50 @@ Al completar el Módulo 1, el estudiante puede:
 | Analizar patrones y tendencias | ✅ Dominado |
 | Generar documentación automática | ✅ Dominado |
 | Investigar información externa | ✅ Introducido |
-| Trabajar de forma autónoma | ✅ Demostrado |
+
+### Al completar el Módulo 2
+
+| Competencia | Nivel |
+|-------------|-------|
+| Usar Plan Mode | ✅ Dominado |
+| Crear CLAUDE.md personalizados | ✅ Dominado |
+| Diseñar Skills (comandos) | ✅ Dominado |
+| Configurar Hooks | ✅ Dominado |
+| Vibe Coding (prototipar sin código) | ✅ Dominado |
+| Supervisar con /review y /cost | ✅ Introducido |
+| Construir un sistema completo | ✅ Demostrado |
 
 ---
 
 ## Tiempo Estimado
 
+### Módulo 1: Fundamentals
+
 | Microlección | Duración |
 |--------------|----------|
-| Context Engineering (intro) | 5 min |
-| Bienvenida | 15-20 min |
-| Exploración | 15-20 min |
-| Organización | 20-25 min |
+| Bienvenida (+ dictado) | 15-20 min |
+| Exploración (+ CLAUDE.md) | 20-25 min |
+| Organización (+ Plan Mode) | 20-25 min |
 | Extracción | 20-25 min |
 | Análisis | 20-25 min |
 | Generación | 20-25 min |
 | Investigación | 15-20 min |
 | Proyecto Final | 20-30 min |
-| **Total** | **~3 horas** |
+| **Subtotal M1** | **~3 horas** |
+
+### Módulo 2: Emprendedor
+
+| Microlección | Duración |
+|--------------|----------|
+| La Idea | 20-30 min |
+| El Proyecto | 20-25 min |
+| Los Comandos | 25-30 min |
+| La Automatización | 20-25 min |
+| El Prototipo | 25-30 min |
+| El Sistema | 20-25 min |
+| **Subtotal M2** | **~2.5-3 horas** |
+
+### **Total del Curso: ~6 horas**
 
 ---
 
