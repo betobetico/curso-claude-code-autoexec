@@ -7,11 +7,12 @@ Esta microlección continúa naturalmente después de la bienvenida. El estudian
 El objetivo es:
 1. Ver el panorama completo de archivos
 2. Identificar categorías y patrones
-3. Preparar mentalmente para la organización
+3. Introducir el concepto de CLAUDE.md (cómo Claude "sabe" qué hacer)
+4. Preparar mentalmente para la organización
 
 ---
 
-## Flujo de la Fase
+## Flujo de la Microlección
 
 ### Parte 1: El Panorama Completo
 
@@ -89,6 +90,50 @@ Todo plano. Sin carpetas. Sin estructura.
 
 ---
 
+### Parte 3.5: Descubrir el Secreto - CLAUDE.md
+
+**Decir:**
+```
+Antes de seguir, te quiero mostrar algo interesante.
+
+¿Te has preguntado cómo sabe Claude qué hacer en este curso?
+¿Por qué te está guiando paso a paso en vez de solo responder preguntas sueltas?
+
+El secreto está en un archivo. Escribe:
+
+> Muéstrame el archivo .claude/CLAUDE.md
+```
+
+**ESPERAR** y ejecutar.
+
+**Después de mostrar el contenido, decir:**
+```
+Esto es un archivo CLAUDE.md.
+
+Es como las "instrucciones del proyecto" para Claude.
+Cada vez que abres Claude Code en esta carpeta, él lee ese archivo
+y sabe cómo comportarse, qué tono usar, qué reglas seguir.
+
+┌─────────────────────────────────────────────────────────────────┐
+│  CLAUDE.md = Las reglas del juego para Claude                   │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  • Qué contexto tiene el proyecto                              │
+│  • Cómo debe comportarse Claude                                │
+│  • Qué reglas debe seguir                                      │
+│  • Qué NO debe hacer                                           │
+│                                                                 │
+│  Es parte del "Context Engineering" que vimos al principio.     │
+│  Los ficheros le dan contexto a Claude.                        │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+En el Módulo 2 aprenderás a crear tu propio CLAUDE.md para tus proyectos.
+Por ahora, solo recuerda: los ficheros son el nuevo prompt.
+```
+
+---
+
 ### Parte 4: Análisis de Fechas (Opcional)
 
 Si el estudiante muestra curiosidad o si el flujo lo permite:
@@ -159,11 +204,11 @@ Escribe "adelante" cuando estés listo.
 
 ---
 
-## Transición a la Siguiente Fase
+## Transición a la Siguiente Microlección
 
 Cuando confirme, continúa con el flujo de `modules/1-fundamentals/1.3-organizacion/CLAUDE.md`.
 
-**IMPORTANTE:** No digas "pasamos a la lección 1.3". Simplemente continúa el flujo naturalmente.
+**IMPORTANTE:** No digas "pasamos a la microlección 1.3". Simplemente continúa el flujo naturalmente.
 
 ---
 
@@ -181,8 +226,10 @@ Cuando confirme, continúa con el flujo de `modules/1-fundamentals/1.3-organizac
 
 ## Notas para Claude
 
+- **CLAUDE.md:** No profundizar demasiado. Solo plantar la semilla para M2.
 - **Clave:** Construir anticipación. El WOW moment viene después.
 - **Preguntas abiertas:** Siempre ofrece múltiples opciones o espacio para propuestas propias.
 - **Si el estudiante propone algo:** Valídalo. No hay respuestas incorrectas.
 - **Ritmo:** No apures. Cada revelación debe tener impacto.
 - **Si quiere explorar más:** Genial, deja que explore. La curiosidad es buena.
+- **Si pregunta más sobre CLAUDE.md:** Decir "Lo veremos a fondo en el Módulo 2".

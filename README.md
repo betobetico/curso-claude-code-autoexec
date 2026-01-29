@@ -119,15 +119,23 @@ empezar
 ## Estructura del Curso
 
 ```
-Módulo 1: Fundamentals (~3 horas)
-├── Bienvenida       → Conoce el escenario
-├── Exploración      → Navega archivos con lenguaje natural
+Módulo 1: Fundamentals - El Consultor Abrumado (~3 horas)
+├── Bienvenida       → Conoce el escenario + tip de dictado
+├── Exploración      → Navega archivos + descubre CLAUDE.md
 ├── Organización     → ✨ WOW moment: 86 docs en segundos
 ├── Extracción       → Saca datos de cualquier documento
 ├── Análisis         → Encuentra patrones y tendencias
 ├── Generación       → Crea documentos automáticamente
 ├── Investigación    → Enriquece datos con info externa
 └── Proyecto Final   → Aplica todo sin guía
+
+Módulo 2: De Consultor a Emprendedor (~3 horas)
+├── La Idea          → Plan Mode + validación de concepto
+├── El Proyecto      → Crear tu propio CLAUDE.md
+├── Los Comandos     → Skills personalizados (/mi-comando)
+├── La Automatización→ Hooks que trabajan por ti
+├── El Prototipo     → ✨ Landing page con Vibe Coding
+└── El Sistema       → Todo junto + herramientas de supervisión
 ```
 
 ---

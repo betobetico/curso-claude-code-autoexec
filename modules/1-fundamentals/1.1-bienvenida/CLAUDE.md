@@ -5,19 +5,90 @@
 Esta microlección comienza después de que el estudiante escriba "listo" (confirmando que abrió el Finder).
 
 El objetivo es:
-1. Mostrar el caos de forma impactante
-2. Hacer que el estudiante ejecute su primer comando
-3. Transicionar naturalmente a exploración
+1. Conocer al estudiante (nombre, a qué se dedica)
+2. Dar un tip práctico sobre dictado por voz
+3. Mostrar el caos de forma impactante
+4. Hacer que el estudiante ejecute su primer comando
+5. Transicionar naturalmente a exploración
 
 ---
 
-## Flujo de la Fase
+## Flujo de la Microlección
+
+### Parte 0: Conocer al Estudiante
+
+**Decir:**
+```
+Antes de meternos en el caos, me gustaría conocerte un poco.
+
+¿Cómo te llamas y a qué te dedicas?
+```
+
+**ESPERAR** respuesta del estudiante.
+
+**Guardar en memoria** (actualizar `memory/learning/preferences.json`):
+```json
+{
+  "student_name": "[NOMBRE]",
+  "profession": "[LO QUE DIJO]"
+}
+```
+
+**Responder personalizadamente:**
+```
+Encantado, [NOMBRE].
+
+Como [PROFESIÓN], seguro que te suena esto: documentos por todas partes,
+propuestas mezcladas con facturas, y ese "ya lo organizo mañana" que nunca llega.
+
+Antes de empezar, un tip práctico:
+```
+
+---
+
+### Parte 0.5: Tip de Dictado por Voz
+
+**Decir:**
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  TIP: DICTA EN VEZ DE ESCRIBIR                                  │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  Con Claude Code vas a "hablar" mucho con el terminal.          │
+│  Escribir todo puede ser lento.                                 │
+│                                                                 │
+│  Te recomiendo instalar una app de dictado:                     │
+│                                                                 │
+│  • Superwhisper (Mac) - superwhisper.com                        │
+│  • Wispr Flow (Mac/Windows) - wispr.flow                        │
+│  • El dictado nativo de tu sistema (gratis)                     │
+│                                                                 │
+│  Así puedes DICTAR tus instrucciones a Claude Code.             │
+│  Hablas → Se escribe → Claude ejecuta.                          │
+│                                                                 │
+│  No es obligatorio, pero cambia la experiencia.                 │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+¿Lo tienes instalado o prefieres escribir de momento?
+```
+
+**ESPERAR** respuesta breve.
+
+**Decir:**
+```
+Perfecto. Cuando quieras lo pruebas.
+
+Ahora sí, vamos a ver ese caos...
+```
+
+---
 
 ### Parte 1: Mostrar el Caos
 
 **Decir:**
 ```
-Perfecto. Ahora mira en Finder y en el terminal al mismo tiempo.
+Mira en Finder y en el terminal al mismo tiempo.
 
 Voy a mostrarte lo que hay en esa carpeta.
 ```
@@ -31,7 +102,7 @@ Voy a mostrarte lo que hay en esa carpeta.
 Propuestas junto a facturas. Emails de 2022 junto a contratos de ayer.
 El típico "ya lo organizo luego" que nunca llega.
 
-¿Cuánto tiempo crees que tomaría organizar todo esto manualmente?
+[NOMBRE], ¿cuánto tiempo crees que tomaría organizar todo esto manualmente?
 ¿Una hora? ¿Medio día? ¿Un fin de semana entero?
 ```
 
@@ -59,11 +130,11 @@ Hagamos una prueba.
 ```
 Quiero que TÚ le pidas algo a Claude Code.
 
-Escribe esto exactamente:
+Escribe (o dicta) esto:
 
 > Dame un resumen de qué archivos hay en inbox-caos
 
-Adelante, escríbelo.
+Adelante.
 ```
 
 **ESPERAR** a que el estudiante escriba el comando.
@@ -79,7 +150,7 @@ Ejecutar el análisis solicitado y mostrar resultado.
 Le pediste algo en español, sin sintaxis especial, y Claude lo ejecutó.
 
 No escribiste `ls -la | grep | awk`... escribiste lo que querías.
-Ese es el poder de Claude Code.
+Ese es el poder de Claude Code, [NOMBRE].
 ```
 
 ---
@@ -111,7 +182,7 @@ Después de 2-3 preguntas exploratorias del estudiante:
 
 **Decir:**
 ```
-Bien. Ya entiendes lo básico:
+Bien, [NOMBRE]. Ya entiendes lo básico:
 - Pides en lenguaje natural
 - Claude ejecuta
 - Ves el resultado
@@ -137,11 +208,11 @@ ver patrones, y preparar todo para organizarlo.
 
 ---
 
-## Transición a la Siguiente Fase
+## Transición a la Siguiente Microlección
 
 Cuando confirme, continúa con el flujo de `modules/1-fundamentals/1.2-exploracion/CLAUDE.md`.
 
-No digas "pasamos a la lección 1.2". Simplemente continúa el flujo.
+No digas "pasamos a la microlección 1.2". Simplemente continúa el flujo.
 
 ---
 
@@ -159,8 +230,10 @@ No digas "pasamos a la lección 1.2". Simplemente continúa el flujo.
 
 ## Notas para Claude
 
+- **Nombre:** Usa el nombre del estudiante 2-3 veces, no más (no ser repetitivo).
 - **Tono:** Empático pero directo. El caos es real, todos lo tenemos.
 - **Ritmo:** Dale tiempo de absorber. No apures.
+- **Tip de dictado:** No insistir si no lo quiere. Es opcional.
 - **Si se desvía:** Responde brevemente pero guía de vuelta al flujo.
 - **Si pregunta mucho:** Genial, es curiosidad. Responde y luego guía.
 - **Celebra:** Cuando ejecute su primer comando, es un pequeño win.

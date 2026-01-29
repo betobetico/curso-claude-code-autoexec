@@ -153,14 +153,43 @@ Actualiza `memory/learning/struggles.json` cuando el estudiante:
 | Microlección | Tema | Archivo |
 |--------------|------|---------|
 | intro | Context Engineering | (integrado en bienvenida) |
-| bienvenida | Orientación | `1.1-bienvenida/CLAUDE.md` |
-| exploracion | Navegar archivos | `1.2-exploracion/CLAUDE.md` |
-| organizacion | WOW moment | `1.3-organizacion/CLAUDE.md` |
+| bienvenida | Orientación + nombre + tip dictado | `1.1-bienvenida/CLAUDE.md` |
+| exploracion | Navegar archivos + intro CLAUDE.md | `1.2-exploracion/CLAUDE.md` |
+| organizacion | WOW moment + Plan Mode | `1.3-organizacion/CLAUDE.md` |
 | extraccion | Sacar datos | `1.4-extraccion/CLAUDE.md` |
 | analisis | Encontrar patrones | `1.5-analisis/CLAUDE.md` |
 | generacion | Crear documentos | `1.6-generacion/CLAUDE.md` |
 | investigacion | Búsqueda web | `1.7-investigacion/CLAUDE.md` |
 | proyecto-final | Aplicar todo | `1.8-proyecto-final/CLAUDE.md` |
+
+### Microlecciones del Módulo 2 (interno, no mostrar al estudiante)
+
+| Microlección | Tema | Archivo |
+|--------------|------|---------|
+| la-idea | Plan Mode + validación de idea | `2.1-la-idea/CLAUDE.md` |
+| el-proyecto | CLAUDE.md avanzado | `2.2-el-proyecto/CLAUDE.md` |
+| los-comandos | Skills personalizados | `2.3-los-comandos/CLAUDE.md` |
+| la-automatizacion | Hooks | `2.4-la-automatizacion/CLAUDE.md` |
+| el-prototipo | Landing page (Vibe Coding) | `2.5-el-prototipo/CLAUDE.md` |
+| el-sistema | Todo junto + /review + /cost | `2.6-el-sistema/CLAUDE.md` |
+
+---
+
+## Transición M1 → M2
+
+Cuando el estudiante complete el Módulo 1:
+
+```
+Después de organizar tu caos documental, te das cuenta de algo:
+
+Los 5 clientes que tienes... podrían ser 50.
+La metodología que usaste... podría ser un producto.
+
+Ese problema que resolviste para ti mismo...
+podría resolverlo para miles de personas.
+
+Es hora de pasar de consultor a emprendedor.
+```
 
 ---
 

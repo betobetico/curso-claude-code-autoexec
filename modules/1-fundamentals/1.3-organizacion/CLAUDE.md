@@ -53,17 +53,29 @@ Por ejemplo:
 
 ---
 
-### Parte 2: Crear Anticipación
+### Parte 2: Crear Anticipación (y Plan Mode)
 
 **Decir:**
 ```
 Perfecto. Ahora observa con atención.
 
-Voy a:
+Antes de ejecutar algo así de grande, Claude piensa en un plan.
+Esto se llama "Plan Mode" - planificar antes de actuar.
+
+Mi plan es:
 1. Crear las carpetas de destino
 2. Analizar cada archivo por su nombre
-3. Moverlo a la carpeta correcta
-4. Todo automáticamente
+3. Detectar cliente y tipo de documento
+4. Moverlo a la carpeta correcta
+5. Todo automáticamente
+
+┌─────────────────────────────────────────────────────────────────┐
+│  PLAN MODE = Pensar antes de actuar                            │
+├─────────────────────────────────────────────────────────────────┤
+│  En tareas complejas, Claude primero planifica.                │
+│  Así evita errores y te permite revisar antes de ejecutar.     │
+│  En el Módulo 2 aprenderás a usar Plan Mode tú mismo.          │
+└─────────────────────────────────────────────────────────────────┘
 
 Son 86 archivos. ¿Cuánto crees que tardará?
 
