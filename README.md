@@ -19,6 +19,22 @@ No hay videos. No hay PDFs. Solo tú y Claude, en el terminal.
 
 Un curso interactivo de **Claude Code** diseñado para profesionales no-técnicos que quieren automatizar tareas repetitivas sin escribir código.
 
+### El Concepto Clave: Context Engineering
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│     DEL PROMPT ENGINEERING AL CONTEXT ENGINEERING               │
+├─────────────────────────────────────────────────────────────────┤
+│  ANTES (ChatGPT, etc.)         AHORA (Claude Code)             │
+│  ════════════════════          ═══════════════════             │
+│  Solo texto                 →  Texto + Ficheros + Herramientas │
+│  "Escribe mejor el prompt"  →  "Dame el contexto completo"     │
+│  Copiar/pegar contenido     →  Acceso directo a tus archivos   │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+**Los ficheros son el nuevo prompt.** Ya no necesitas "ser bueno escribiendo prompts". Lo que importa es organizar tu información.
+
 En **~3 horas** aprenderás a:
 
 - ✅ Organizar cientos de documentos automáticamente
@@ -42,7 +58,9 @@ En **~3 horas** aprenderás a:
 
 ---
 
-## Instalación Rápida
+## Instalación
+
+📖 [Eres nuevo en Terminal? → Ve directamente a esta guía de instalación paso a paso](docs/instalacion.md)
 
 ### Paso 1: Instalar Claude Code
 
@@ -94,7 +112,7 @@ empezar
 
 ¡Y listo! Claude te guiará desde ahí.
 
-📖 [Guía de instalación completa](docs/instalacion.md)
+
 
 ---
 
@@ -120,7 +138,8 @@ Módulo 1: Fundamentals (~3 horas)
 |---------|-------------|
 | `empezar` | Inicia el curso desde el principio |
 | `/progreso` | Ver tu avance actual |
-| `/hint` | Pedir una pista |
+| `/hint` | Pedir pista (4 niveles: sutil → directa → casi solución → completa) |
+| `/hint 3` | Ir directo a un nivel específico de pista |
 | `/skip` | Saltar ejercicio actual |
 | `/ayuda` | Ver todos los comandos |
 | `/stuck` | Activar modo tutor socrático |
@@ -167,7 +186,7 @@ MIT License - Ver [LICENSE](LICENSE) para más detalles.
 
 ## ¿Preguntas?
 
-- 📧 Email: contacto@rebundle.ai
+- 📧 Email: a@rebundle.ai
 - 💬 Issues: [GitHub Issues](https://github.com/betobetico/curso-claude-code-autoexec/issues)
 - 📖 FAQ: [Preguntas Frecuentes](docs/faq.md)
 

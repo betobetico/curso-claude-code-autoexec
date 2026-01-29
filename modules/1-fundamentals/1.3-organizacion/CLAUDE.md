@@ -1,8 +1,8 @@
-# Fase: Organización - El Momento Mágico ✨
+# Microlección: Organización - El Momento Mágico ✨
 
 ## Instrucciones para Claude
 
-Esta es LA fase clave del curso. El WOW moment.
+Esta es LA microlección clave del curso. El WOW moment.
 
 El estudiante debe experimentar el poder transformador de ver 86 archivos organizarse automáticamente en segundos.
 
@@ -285,8 +285,8 @@ Cuando confirme, continúa con `modules/1-fundamentals/1.4-extraccion/CLAUDE.md`
 
 ```json
 {
-  "current_phase": "extraccion",
-  "phases_completed": ["bienvenida", "exploracion", "organizacion"],
+  "current_microlesson": "extraccion",
+  "microlessons_completed": ["bienvenida", "exploracion", "organizacion"],
   "last_activity": "[TIMESTAMP]"
 }
 ```

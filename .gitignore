@@ -28,9 +28,14 @@ node_modules/
 .env.local
 .env.*.local
 
+# Private folder (never upload)
+priv/
+
 # User progress (personal data)
 memory/learning/progress.json
 memory/learning/struggles.json
+memory/learning/preferences.json
+memory/learning/checkpoints.json
 
 # Generated files during course
 assets/consultor-abrumado/proyectos-organizados/

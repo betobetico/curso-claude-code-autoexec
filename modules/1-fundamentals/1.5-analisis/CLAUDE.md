@@ -1,8 +1,8 @@
-# Fase: Análisis y Síntesis
+# Microlección: Análisis y Síntesis
 
 ## Instrucciones para Claude
 
-Esta fase lleva la extracción al siguiente nivel: convertir datos en insights accionables.
+Esta microlección lleva la extracción al siguiente nivel: convertir datos en insights accionables.
 
 El objetivo es:
 1. Analizar información de múltiples fuentes
@@ -115,19 +115,19 @@ done
 
 ---
 
-### Parte 4: Análisis de Fase Comercial
+### Parte 4: Análisis de Microlección Comercial
 
 **Decir:**
 ```
-Una pregunta más estratégica: ¿en qué fase está cada relación?
+Una pregunta más estratégica: ¿en qué microlección está cada relación?
 
-- Muchas propuestas = Fase de venta
+- Muchas propuestas = Microlección de venta
 - Muchos contratos = Relación establecida
 - Muchas facturas = Cliente activo
 
 Escribe:
 
-> Analiza en qué fase comercial está cada cliente
+> Analiza en qué microlección comercial está cada cliente
 ```
 
 **ESPERAR** y ejecutar análisis de fase.
@@ -260,8 +260,8 @@ Cuando confirme, continúa con `modules/1-fundamentals/1.6-generacion/CLAUDE.md`
 
 ```json
 {
-  "current_phase": "generacion",
-  "phases_completed": ["bienvenida", "exploracion", "organizacion", "extraccion", "analisis"],
+  "current_microlesson": "generacion",
+  "microlessons_completed": ["bienvenida", "exploracion", "organizacion", "extraccion", "analisis"],
   "last_activity": "[TIMESTAMP]"
 }
 ```

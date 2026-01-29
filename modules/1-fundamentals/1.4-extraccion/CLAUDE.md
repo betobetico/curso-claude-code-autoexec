@@ -1,8 +1,8 @@
-# Fase: Extracción de Datos
+# Microlección: Extracción de Datos
 
 ## Instrucciones para Claude
 
-Esta fase continúa naturalmente después de la organización. El estudiante ya tiene sus archivos ordenados.
+Esta microlección continúa naturalmente después de la organización. El estudiante ya tiene sus archivos ordenados.
 
 El objetivo es:
 1. Mostrar cómo extraer información de múltiples archivos
@@ -230,8 +230,8 @@ Cuando confirme, continúa con `modules/1-fundamentals/1.5-analisis/CLAUDE.md`.
 
 ```json
 {
-  "current_phase": "analisis",
-  "phases_completed": ["bienvenida", "exploracion", "organizacion", "extraccion"],
+  "current_microlesson": "analisis",
+  "microlessons_completed": ["bienvenida", "exploracion", "organizacion", "extraccion"],
   "last_activity": "[TIMESTAMP]"
 }
 ```

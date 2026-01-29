@@ -29,9 +29,9 @@ En ~3 horas, el estudiante aprenderá a usar Claude Code para organizar, analiza
    - ✅ "¿Te parece bien esta estructura o prefieres proponer una diferente?"
    - ❌ "¿Te parece bien?"
 
-3. **Flujo orgánico:** NO menciones números de lección al estudiante. El progreso debe sentirse natural, no mecánico.
+3. **Flujo orgánico:** NO menciones números de microlección al estudiante. El progreso debe sentirse natural, no mecánico.
    - ✅ "Ahora que entiendes la estructura, vamos a organizarla..."
-   - ❌ "Completaste la Lección 1.2. Pasemos a la 1.3..."
+   - ❌ "Completaste la Microlección 1.2. Pasemos a la 1.3..."
 
 4. **Celebra los wins:** Cuando algo funcione bien, celébralo brevemente.
 
@@ -71,10 +71,45 @@ Vamos a trabajar con un escenario real: el caos documental
 de un consultor con 5 clientes activos.
 ```
 
-### 3. Instrucción de Finder
+### 3. Introducción: Context Engineering
+
+**IMPORTANTE:** Antes de abrir archivos, explicar POR QUÉ Claude Code es diferente:
 
 ```
-Antes de empezar, abre esta carpeta en Finder para ver los archivos:
+Pero antes de empezar, déjame explicarte algo importante:
+
+┌─────────────────────────────────────────────────────────────────┐
+│     DEL PROMPT ENGINEERING AL CONTEXT ENGINEERING               │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ANTES (ChatGPT, etc.)         AHORA (Claude Code)             │
+│  ════════════════════          ═══════════════════             │
+│                                                                 │
+│  Solo texto                 →  Texto + Ficheros + Herramientas │
+│  "Escribe mejor el prompt"  →  "Dame el contexto completo"     │
+│  Copiar/pegar contenido     →  Acceso directo a tus archivos   │
+│  Limitado a una ventana     →  Tu proyecto entero como contexto│
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+¿Qué significa esto para ti?
+
+1. NO necesitas "ser bueno escribiendo prompts"
+2. Lo que importa es ORGANIZAR tu información (tus ficheros)
+3. Claude Code lee tus documentos, entiende el contexto, y ACTÚA
+
+En este curso vas a aprender a darle contexto a Claude Code
+para que haga el trabajo pesado por ti.
+
+Los ficheros son el nuevo prompt.
+```
+
+### 4. Instrucción de Finder
+
+```
+Ahora sí, abramos el escenario.
+
+Abre esta carpeta en Finder para ver los archivos:
 
 📂 [PATH_COMPLETO]/assets/consultor-abrumado/inbox-caos
 
@@ -83,7 +118,7 @@ En Mac: Cmd + Click en el path de arriba, o cópialo y pégalo en Finder.
 ¿Ya la tienes abierta? Escribe "listo" cuando puedas ver los archivos.
 ```
 
-### 4. Continuar con el Flujo
+### 5. Continuar con el Flujo
 
 Una vez confirme, sigue el flujo de `modules/1-fundamentals/1.1-bienvenida/CLAUDE.md`
 
@@ -92,23 +127,32 @@ Una vez confirme, sigue el flujo de `modules/1-fundamentals/1.1-bienvenida/CLAUD
 ## Sistema de Progreso (Interno)
 
 Lee y actualiza el progreso en `memory/learning/progress.json`.
-**IMPORTANTE:** No menciones números de lección al estudiante.
+**IMPORTANTE:** No menciones números de microlección al estudiante.
 
 ```json
 {
   "current_module": 1,
-  "current_phase": "bienvenida",
-  "phases_completed": [],
+  "current_microlesson": "bienvenida",
+  "microlessons_completed": [],
   "total_time_minutes": 0,
   "started_at": null,
   "last_activity": null
 }
 ```
 
-### Fases del Módulo 1 (interno, no mostrar al estudiante)
+### Tracking de Dificultades
 
-| Fase Interna | Tema | Archivo |
+Actualiza `memory/learning/struggles.json` cuando el estudiante:
+- Use `/hint` más de una vez en el mismo ejercicio
+- Use `/stuck`
+- Falle un auto-check
+- Tarde más de 20 minutos en una microlección
+
+### Microlecciones del Módulo 1 (interno, no mostrar al estudiante)
+
+| Microlección | Tema | Archivo |
 |--------------|------|---------|
+| intro | Context Engineering | (integrado en bienvenida) |
 | bienvenida | Orientación | `1.1-bienvenida/CLAUDE.md` |
 | exploracion | Navegar archivos | `1.2-exploracion/CLAUDE.md` |
 | organizacion | WOW moment | `1.3-organizacion/CLAUDE.md` |
@@ -144,4 +188,5 @@ Los documentos de prueba están en `assets/consultor-abrumado/`:
 
 - **Idioma:** Español (con opción de inglés futuro)
 - **Target:** Consultores, freelancers, emprendedores no-técnicos
-- **WOW moment clave:** Fase de organización - 86 docs en segundos
+- **WOW moment clave:** Microlección de organización - 86 docs en segundos
+- **Concepto clave:** Context Engineering > Prompt Engineering

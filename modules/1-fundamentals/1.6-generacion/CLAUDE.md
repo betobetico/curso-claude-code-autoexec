@@ -1,8 +1,8 @@
-# Fase: Generación de Contenido
+# Microlección: Generación de Contenido
 
 ## Instrucciones para Claude
 
-Esta fase muestra el poder de CREAR documentos nuevos automáticamente.
+Esta microlección muestra el poder de CREAR documentos nuevos automáticamente.
 
 El objetivo es:
 1. Generar índices navegables
@@ -291,8 +291,8 @@ Cuando confirme, continúa con `modules/1-fundamentals/1.7-investigacion/CLAUDE.
 
 ```json
 {
-  "current_phase": "investigacion",
-  "phases_completed": ["bienvenida", "exploracion", "organizacion", "extraccion", "analisis", "generacion"],
+  "current_microlesson": "investigacion",
+  "microlessons_completed": ["bienvenida", "exploracion", "organizacion", "extraccion", "analisis", "generacion"],
   "last_activity": "[TIMESTAMP]"
 }
 ```

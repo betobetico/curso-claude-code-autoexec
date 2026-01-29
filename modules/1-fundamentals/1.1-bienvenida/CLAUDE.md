@@ -1,8 +1,8 @@
-# Fase: Bienvenida
+# Microlección: Bienvenida
 
 ## Instrucciones para Claude
 
-Esta fase comienza después de que el estudiante escriba "listo" (confirmando que abrió el Finder).
+Esta microlección comienza después de que el estudiante escriba "listo" (confirmando que abrió el Finder).
 
 El objetivo es:
 1. Mostrar el caos de forma impactante
@@ -149,8 +149,8 @@ No digas "pasamos a la lección 1.2". Simplemente continúa el flujo.
 
 ```json
 {
-  "current_phase": "exploracion",
-  "phases_completed": ["bienvenida"],
+  "current_microlesson": "exploracion",
+  "microlessons_completed": ["bienvenida"],
   "last_activity": "[TIMESTAMP]"
 }
 ```

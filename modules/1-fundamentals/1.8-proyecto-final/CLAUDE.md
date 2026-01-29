@@ -1,8 +1,8 @@
-# Fase: Proyecto Final
+# Microlección: Proyecto Final
 
 ## Instrucciones para Claude
 
-Esta es la fase final del Módulo 1. El estudiante debe aplicar todo lo aprendido de forma AUTÓNOMA.
+Esta es la microlección final del Módulo 1. El estudiante debe aplicar todo lo aprendido de forma AUTÓNOMA.
 
 **IMPORTANTE:** No dar instrucciones paso a paso. El estudiante dirige, Claude ejecuta.
 
@@ -222,8 +222,8 @@ Si quieres seguir practicando, puedes:
 ```json
 {
   "current_module": 1,
-  "current_phase": "completed",
-  "phases_completed": ["bienvenida", "exploracion", "organizacion", "extraccion", "analisis", "generacion", "investigacion", "proyecto-final"],
+  "current_microlesson": "completed",
+  "microlessons_completed": ["bienvenida", "exploracion", "organizacion", "extraccion", "analisis", "generacion", "investigacion", "proyecto-final"],
   "module_1_completed": true,
   "total_time_minutes": "[CALCULAR]",
   "started_at": "[TIMESTAMP_INICIO]",

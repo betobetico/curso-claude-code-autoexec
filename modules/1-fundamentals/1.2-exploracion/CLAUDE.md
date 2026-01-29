@@ -1,8 +1,8 @@
-# Fase: Exploración
+# Microlección: Exploración
 
 ## Instrucciones para Claude
 
-Esta fase continúa naturalmente después de la bienvenida. El estudiante ya sabe hacer preguntas básicas.
+Esta microlección continúa naturalmente después de la bienvenida. El estudiante ya sabe hacer preguntas básicas.
 
 El objetivo es:
 1. Ver el panorama completo de archivos
@@ -171,8 +171,8 @@ Cuando confirme, continúa con el flujo de `modules/1-fundamentals/1.3-organizac
 
 ```json
 {
-  "current_phase": "organizacion",
-  "phases_completed": ["bienvenida", "exploracion"],
+  "current_microlesson": "organizacion",
+  "microlessons_completed": ["bienvenida", "exploracion"],
   "last_activity": "[TIMESTAMP]"
 }
 ```

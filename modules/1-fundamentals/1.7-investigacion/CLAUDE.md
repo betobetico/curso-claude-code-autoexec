@@ -1,8 +1,8 @@
-# Fase: Investigación Web
+# Microlección: Investigación Web
 
 ## Instrucciones para Claude
 
-Esta fase muestra cómo enriquecer datos con información externa.
+Esta microlección muestra cómo enriquecer datos con información externa.
 
 El objetivo es:
 1. Demostrar capacidades de búsqueda web
@@ -238,8 +238,8 @@ Cuando confirme, continúa con `modules/1-fundamentals/1.8-proyecto-final/CLAUDE
 
 ```json
 {
-  "current_phase": "proyecto-final",
-  "phases_completed": ["bienvenida", "exploracion", "organizacion", "extraccion", "analisis", "generacion", "investigacion"],
+  "current_microlesson": "proyecto-final",
+  "microlessons_completed": ["bienvenida", "exploracion", "organizacion", "extraccion", "analisis", "generacion", "investigacion"],
   "last_activity": "[TIMESTAMP]"
 }
 ```
